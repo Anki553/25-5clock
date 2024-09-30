@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>25+5 clock</title>
+    <link
+    href="https://fonts.googleapis.com/css?family=Share+Tech+Mono|Righteous"
+    rel="stylesheet"
+  />
+  <link
+    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    rel="stylesheet"
+  />
+    <link rel="stylesheet" href="clock.css"
+</head>
+<body>
+    <div id="container">
+      <div class="app">
+        <div id="main-title">25+5 Clock</div>
+        <div class="length-control">
+            <div id="break-length">Break Length</div>
+            <button class="btnlevel" id="break-decrement" value="-">
+                <i class="fa fa-arrow-down fa-2x"></::before></i>
+            </button>
+            <div class="btn-level" id="break-length">5</div>
+            <button class="btnlevel" id="break-increment" value="+">
+                <i class="fa fa-arrow-up fa-2x"></::before></i>
+            </button>
+        </div>
+        <div class="length-control"><div id="session-label">Session Length</div><button class="btn-level" id="session-decrement" value="-"><i class="fa fa-arrow-down fa-2x"></i></button><div class="session-level" id="session-length">25</div><button class="btn-level" id="session-increment" value="+"><i class="fa fa-arrow-up fa-2x"></i></button></div>
+                <div class="timer" style="color: white;">
+                    <div class="timer-wrapper"><div id="timer-label">Session</div>
+                    <div id="time-left">25:00</div>
+                </div></div>          
+                <div class="timer-control">
+        <button id="start_stop">
+            <i class="fa fa-play fa-2x"></i>
+            <i class="fa fa-pause fa-2x"></i></button>
+ <button id="reset"><i class="fa fa-refresh fa-2x"></i>
+</button></div>          
+      </div>
+    </div>
+    <script src="clock.js"></script>
+</body>
+</html>
